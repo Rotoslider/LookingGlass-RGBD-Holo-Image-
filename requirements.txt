@@ -1,0 +1,15 @@
+# Core demo
+gradio==4.44.1
+gradio_imageslider
+gradio-client>=0.16.2      # fixes JSON-schema crash
+
+# ML stack
+torch
+torchvision
+timm                       # PyTorch image models (NOT a typo)
+opencv-python
+matplotlib
+
+# HF hub + safetensors
+huggingface_hub<0.23       # keeps HfFolder symbol
+safetensors
